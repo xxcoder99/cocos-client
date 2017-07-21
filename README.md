@@ -1,2 +1,3 @@
 # cocos-client
-可用于开发2d网络游戏的客户端，协议多样化，目前采用无符号二进制流（对应lua53 string.pack()）
+it can use to develope cocos2d ,it is support binary protocol by your defined .
+now ,i defined pack head 16 chars, bodylength,commandid,version,magicnum ,timestamp;
